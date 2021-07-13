@@ -1,0 +1,32 @@
+{
+  "name": "web-pack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "webpack-cli": "^4.7.2",
+    "webpack": "^5.44.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.7",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.1.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richie9000/web-pack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richie9000/web-pack/issues"
+  },
+  "homepage": "https://github.com/Richie9000/web-pack#readme"
+}
